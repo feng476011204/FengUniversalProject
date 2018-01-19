@@ -18,8 +18,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //初始化窗口
         initWindow()
-        
-        
+        //初始化第三方服务
+        initThirdService()
+        //初始化App服务
+        initService()
+        //启动广告页
+        AppManager.appStart()
         
         return true
     }

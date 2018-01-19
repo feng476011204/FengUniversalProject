@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B215FB932011B76600AA7323 /* UtilsContsants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B215FB902011B76600AA7323 /* UtilsContsants.swift */; };
+		B215FB942011B76600AA7323 /* FontAndColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B215FB912011B76600AA7323 /* FontAndColorConstants.swift */; };
+		B215FB952011B76600AA7323 /* URLConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B215FB922011B76600AA7323 /* URLConstants.swift */; };
+		B29A5BDF2011DF6400F17574 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29A5BDE2011DF6400F17574 /* StringExtension.swift */; };
 		B2E32E9F201197E500742A09 /* FengUniversalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E32E9E201197E500742A09 /* FengUniversalProjectTests.swift */; };
 		B2E32EAA201197E600742A09 /* FengUniversalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E32EA9201197E600742A09 /* FengUniversalProjectUITests.swift */; };
 		B2E32EC0201198C400742A09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E32EB8201198C400742A09 /* AppDelegate.swift */; };
@@ -15,8 +19,8 @@
 		B2E32EC3201198C400742A09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2E32EBD201198C400742A09 /* Main.storyboard */; };
 		B2E32EC4201198C400742A09 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2E32EBF201198C400742A09 /* Info.plist */; };
 		B2E32EC620119A5100742A09 /* AppDelegateAppService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E32EC520119A5100742A09 /* AppDelegateAppService.swift */; };
-		B2E32EC920119F0900742A09 /* UtilsContsans.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E32EC820119F0900742A09 /* UtilsContsans.swift */; };
-		B2E32ECB2011A2FC00742A09 /* FontAndColorConstans.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E32ECA2011A2FC00742A09 /* FontAndColorConstans.swift */; };
+		B2EED03C2011BBD80078A074 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EED03B2011BBD80078A074 /* AppManager.swift */; };
+		B2EED03F2011BF6B0078A074 /* AdPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EED03E2011BF6B0078A074 /* AdPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B215FB902011B76600AA7323 /* UtilsContsants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilsContsants.swift; sourceTree = "<group>"; };
+		B215FB912011B76600AA7323 /* FontAndColorConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAndColorConstants.swift; sourceTree = "<group>"; };
+		B215FB922011B76600AA7323 /* URLConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLConstants.swift; sourceTree = "<group>"; };
+		B29A5BDE2011DF6400F17574 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		B2E32E86201197E500742A09 /* FengUniversalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FengUniversalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2E32E9A201197E500742A09 /* FengUniversalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FengUniversalProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2E32E9E201197E500742A09 /* FengUniversalProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FengUniversalProjectTests.swift; sourceTree = "<group>"; };
@@ -50,8 +58,8 @@
 		B2E32EBE201198C400742A09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2E32EBF201198C400742A09 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2E32EC520119A5100742A09 /* AppDelegateAppService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateAppService.swift; sourceTree = "<group>"; };
-		B2E32EC820119F0900742A09 /* UtilsContsans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilsContsans.swift; sourceTree = "<group>"; };
-		B2E32ECA2011A2FC00742A09 /* FontAndColorConstans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontAndColorConstans.swift; sourceTree = "<group>"; };
+		B2EED03B2011BBD80078A074 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		B2EED03E2011BF6B0078A074 /* AdPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B215FB8F2011B76600AA7323 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B215FB902011B76600AA7323 /* UtilsContsants.swift */,
+				B215FB912011B76600AA7323 /* FontAndColorConstants.swift */,
+				B215FB922011B76600AA7323 /* URLConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		B29A5BDC2011DF3700F17574 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B29A5BDD2011DF3700F17574 /* Extension */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B29A5BDD2011DF3700F17574 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B29A5BDE2011DF6400F17574 /* StringExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		B2E32E7D201197E500742A09 = {
 			isa = PBXGroup;
 			children = (
@@ -102,8 +136,11 @@
 		B2E32E88201197E500742A09 /* FengUniversalProject */ = {
 			isa = PBXGroup;
 			children = (
-				B2E32EC720119E8800742A09 /* Constans */,
+				B29A5BDC2011DF3700F17574 /* Utils */,
 				B2E32EB7201198C400742A09 /* AppDelegate */,
+				B215FB8F2011B76600AA7323 /* Constants */,
+				B2EED03A2011BB8B0078A074 /* Manager */,
+				B2EED03D2011BF540078A074 /* AdPage */,
 				B2E32EB9201198C400742A09 /* Supporting Flies */,
 			);
 			path = FengUniversalProject;
@@ -147,13 +184,20 @@
 			path = "Supporting Flies";
 			sourceTree = "<group>";
 		};
-		B2E32EC720119E8800742A09 /* Constans */ = {
+		B2EED03A2011BB8B0078A074 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				B2E32EC820119F0900742A09 /* UtilsContsans.swift */,
-				B2E32ECA2011A2FC00742A09 /* FontAndColorConstans.swift */,
+				B2EED03B2011BBD80078A074 /* AppManager.swift */,
 			);
-			path = Constans;
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		B2EED03D2011BF540078A074 /* AdPage */ = {
+			isa = PBXGroup;
+			children = (
+				B2EED03E2011BF6B0078A074 /* AdPageView.swift */,
+			);
+			path = AdPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,10 +335,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B215FB942011B76600AA7323 /* FontAndColorConstants.swift in Sources */,
+				B2EED03F2011BF6B0078A074 /* AdPageView.swift in Sources */,
+				B215FB952011B76600AA7323 /* URLConstants.swift in Sources */,
+				B215FB932011B76600AA7323 /* UtilsContsants.swift in Sources */,
+				B29A5BDF2011DF6400F17574 /* StringExtension.swift in Sources */,
+				B2EED03C2011BBD80078A074 /* AppManager.swift in Sources */,
 				B2E32EC620119A5100742A09 /* AppDelegateAppService.swift in Sources */,
-				B2E32EC920119F0900742A09 /* UtilsContsans.swift in Sources */,
 				B2E32EC0201198C400742A09 /* AppDelegate.swift in Sources */,
-				B2E32ECB2011A2FC00742A09 /* FontAndColorConstans.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
