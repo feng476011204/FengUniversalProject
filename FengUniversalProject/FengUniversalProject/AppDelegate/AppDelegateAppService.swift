@@ -14,14 +14,36 @@ extension AppDelegate {
     public func initWindow() {
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window?.backgroundColor = kWindowBackGroundColor
-        let vc = UIViewController()
-        vc.view.backgroundColor = UIColor.red
-        self.window?.rootViewController = vc;
+        setupRootVc()
         self.window?.makeKeyAndVisible()
         //避免在一个界面上同时点击多个UIButton导致同时响应多个方法
         UIButton.appearance().isExclusiveTouch = true
     }
     
+    /// 设置根控制器
+    func setupRootVc() {
+        if isNeedGuideVc() {
+            print("需要引导页")
+            UIApplication.shared.keyWindow?.rootViewController = UIViewController()
+        }else {
+            print("不需要引导页")
+            UIApplication.shared.keyWindow?.rootViewController = UIViewController()
+        }
+    }
+    
+    /// 判断是否需要引导页面
+    ///
+    /// - Returns: true:需要 false:不需要
+    func isNeedGuideVc() -> Bool {
+        let oldVersionName = UserDefaults.standard.value(forKey: KVersionNameKey)
+        if let validOldVersionName = oldVersionName as? String {
+            if validOldVersionName.elementsEqual(KVersionName) {
+                return false
+            }
+        }
+        UserDefaults.standard.set(KVersionName, forKey: KVersionNameKey)
+        return true
+    }
     /// 初始化第三方服务
     public func initThirdService() {
         

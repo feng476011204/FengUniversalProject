@@ -36,6 +36,8 @@ let Iphone6ScaleHeight = KScreenHeight / 667.0
 
 let KCurrentSystemVersion = Double(UIDevice.current.systemVersion)
 
+let KVersionName = Bundle.main.infoDictionary!["CFBundleShortVersionString"] as! String
 
+//MARK: -- 本地存储的key
 
-
+let KVersionNameKey = "KVersionNameKey"
